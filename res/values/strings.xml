@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PlayerClient</string>
+    <string name="first_clip">First Clip</string>
+    <string name="Stop_String">Stop Music</string>
+    <string name="second_clip">Second Clip</string>
+    <string name="third_clip">Third Clip</string>
+    <string name="pause_clip">Pause</string>
+    <string name="resume_clip">Resume</string>
+    <string name="display_header">Select the track to be played</string>
+    <string name="music_controller">Music Controller</string>
+    <string name="check_history">Check out the transaction history</string>
+    <string name="retrieve_records">Retrieve Transaction Records</string>    
+</resources>

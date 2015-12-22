@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/display_header"
+        android:layout_marginTop="5dp"/>
+
+    <Button
+        android:id="@+id/clip_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:onClick="PlayMusic"
+        android:tag="1"
+        android:text="@string/first_clip" />
+    
+    <Button
+        android:id="@+id/clip_two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop=".5dp"
+        android:onClick="PlayMusic"
+        android:text="@string/second_clip"
+        android:tag="2" />
+    
+    <Button
+        android:id="@+id/clip_three"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop=".5dp"
+        android:onClick="PlayMusic"
+        android:text="@string/third_clip" 
+        android:tag="3"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/music_controller"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:id="@+id/stop_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:onClick="StopMusic"
+        android:text="@string/Stop_String" />
+    
+    <Button
+        android:id="@+id/pause"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop=".5dp"
+        android:onClick="PauseMusic"
+        android:text="@string/pause_clip" />
+    
+    <Button
+        android:id="@+id/resume"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop=".5dp"
+        android:onClick="ResumeMusic"
+        android:text="@string/resume_clip" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/check_history"
+        android:layout_marginTop="10dp" />
+    
+    <Button
+        android:id="@+id/records"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:onClick="GetData"
+        android:text="@string/retrieve_records" />
+
+</LinearLayout>
